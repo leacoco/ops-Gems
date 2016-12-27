@@ -1,0 +1,24 @@
+Each gen follows the same standard structure
+
+eg
+
+ freewill
+    bin
+      freewill
+    lib
+      freewill.rb
+    test
+      test_freewill.rb
+    README
+    Rakefile
+    freewill.gemspec
+
+NOTE The Directory structure above
+
+- lib: Contains the Code for the gem
+- test or spec: contains tests, depending on which test framework the dev use
+- Rakefile: rake program use to automate tests, generates code and perform some tasks
+- bin: contains an executable file, which will be loaded into the users PATH
+when the gem is installed.
+- gemspec: contains information about the gem.
+ gems files, test info, platform, version number and more.
